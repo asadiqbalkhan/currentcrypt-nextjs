@@ -13,7 +13,7 @@ export default function CoinList({ filteredCoins }){
                 marketcap={coin.market_cap}
                 volume={coin.total_volume}
                 image={coin.image}
-                priceChnage={coin.price_change_percentage_24h}
+                priceChange={coin.price_change_percentage_24h}
             />;
         })}
     </>
